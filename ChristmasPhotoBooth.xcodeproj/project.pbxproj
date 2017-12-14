@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82E9A8DD9797EBAEC567BE89 /* Pods_ChristmasPhotoBooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777973470B5EEA884D755884 /* Pods_ChristmasPhotoBooth.framework */; };
 		84143FF61FE16DCD00C25A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84143FF51FE16DCD00C25A1B /* AppDelegate.swift */; };
 		84143FF81FE16DCD00C25A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84143FF71FE16DCD00C25A1B /* ViewController.swift */; };
 		84143FFB1FE16DCD00C25A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84143FF91FE16DCD00C25A1B /* Main.storyboard */; };
 		84143FFD1FE16DCD00C25A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84143FFC1FE16DCD00C25A1B /* Assets.xcassets */; };
 		841440001FE16DCD00C25A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84143FFE1FE16DCD00C25A1B /* LaunchScreen.storyboard */; };
+		841440081FE1812600C25A1B /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841440071FE1812600C25A1B /* PreviewViewController.swift */; };
+		8414400A1FE1848D00C25A1B /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841440091FE1848D00C25A1B /* CameraController.swift */; };
+		8414F3C91FE19434001877B2 /* PictureTicket.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8414F3C81FE19434001877B2 /* PictureTicket.plist */; };
+		8414F3CB1FE1949F001877B2 /* PrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F3CA1FE1949F001877B2 /* PrinterManager.swift */; };
+		8414F3CD1FE198B7001877B2 /* Label+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F3CC1FE198B7001877B2 /* Label+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		671F1B274D241471F482FA68 /* Pods-ChristmasPhotoBooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristmasPhotoBooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth.release.xcconfig"; sourceTree = "<group>"; };
+		777973470B5EEA884D755884 /* Pods_ChristmasPhotoBooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChristmasPhotoBooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84143FF21FE16DCD00C25A1B /* ChristmasPhotoBooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasPhotoBooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84143FF51FE16DCD00C25A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84143FF71FE16DCD00C25A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		84143FFC1FE16DCD00C25A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84143FFF1FE16DCD00C25A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841440011FE16DCD00C25A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841440071FE1812600C25A1B /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		841440091FE1848D00C25A1B /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		8414F3C81FE19434001877B2 /* PictureTicket.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PictureTicket.plist; path = "../../tiller-pos/Tiller/Supporting Files/printer-templates/PictureTicket.plist"; sourceTree = "<group>"; };
+		8414F3CA1FE1949F001877B2 /* PrinterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterManager.swift; sourceTree = "<group>"; };
+		8414F3CC1FE198B7001877B2 /* Label+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Extension.swift"; sourceTree = "<group>"; };
+		877B2937218DDCFD1BB807A8 /* Pods-ChristmasPhotoBooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristmasPhotoBooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E9A8DD9797EBAEC567BE89 /* Pods_ChristmasPhotoBooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		379D8A8AF68532049F41E7DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				877B2937218DDCFD1BB807A8 /* Pods-ChristmasPhotoBooth.debug.xcconfig */,
+				671F1B274D241471F482FA68 /* Pods-ChristmasPhotoBooth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FFE434CF86E6BD11800561A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				777973470B5EEA884D755884 /* Pods_ChristmasPhotoBooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84143FE91FE16DCD00C25A1B = {
 			isa = PBXGroup;
 			children = (
 				84143FF41FE16DCD00C25A1B /* ChristmasPhotoBooth */,
 				84143FF31FE16DCD00C25A1B /* Products */,
+				379D8A8AF68532049F41E7DE /* Pods */,
+				3FFE434CF86E6BD11800561A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +94,11 @@
 				84143FFC1FE16DCD00C25A1B /* Assets.xcassets */,
 				84143FFE1FE16DCD00C25A1B /* LaunchScreen.storyboard */,
 				841440011FE16DCD00C25A1B /* Info.plist */,
+				841440091FE1848D00C25A1B /* CameraController.swift */,
+				841440071FE1812600C25A1B /* PreviewViewController.swift */,
+				8414F3C81FE19434001877B2 /* PictureTicket.plist */,
+				8414F3CA1FE1949F001877B2 /* PrinterManager.swift */,
+				8414F3CC1FE198B7001877B2 /* Label+Extension.swift */,
 			);
 			path = ChristmasPhotoBooth;
 			sourceTree = "<group>";
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841440041FE16DCD00C25A1B /* Build configuration list for PBXNativeTarget "ChristmasPhotoBooth" */;
 			buildPhases = (
+				0A8794F4F3B7FBF2C1901C94 /* [CP] Check Pods Manifest.lock */,
 				84143FEE1FE16DCD00C25A1B /* Sources */,
 				84143FEF1FE16DCD00C25A1B /* Frameworks */,
 				84143FF01FE16DCD00C25A1B /* Resources */,
+				0989E1BE8DA9D514CA4AA5FF /* [CP] Embed Pods Frameworks */,
+				5643ECE1CC4C4021748599C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +167,78 @@
 			files = (
 				841440001FE16DCD00C25A1B /* LaunchScreen.storyboard in Resources */,
 				84143FFD1FE16DCD00C25A1B /* Assets.xcassets in Resources */,
+				8414F3C91FE19434001877B2 /* PictureTicket.plist in Resources */,
 				84143FFB1FE16DCD00C25A1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0989E1BE8DA9D514CA4AA5FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TillerPrinter/TillerPrinter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TillerPrinter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A8794F4F3B7FBF2C1901C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChristmasPhotoBooth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5643ECE1CC4C4021748599C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84143FEE1FE16DCD00C25A1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8414F3CB1FE1949F001877B2 /* PrinterManager.swift in Sources */,
 				84143FF81FE16DCD00C25A1B /* ViewController.swift in Sources */,
 				84143FF61FE16DCD00C25A1B /* AppDelegate.swift in Sources */,
+				8414400A1FE1848D00C25A1B /* CameraController.swift in Sources */,
+				8414F3CD1FE198B7001877B2 /* Label+Extension.swift in Sources */,
+				841440081FE1812600C25A1B /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,6 +373,7 @@
 		};
 		841440051FE16DCD00C25A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877B2937218DDCFD1BB807A8 /* Pods-ChristmasPhotoBooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -281,12 +383,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiller.ChristmasPhotoBooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		841440061FE16DCD00C25A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671F1B274D241471F482FA68 /* Pods-ChristmasPhotoBooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +399,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiller.ChristmasPhotoBooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
