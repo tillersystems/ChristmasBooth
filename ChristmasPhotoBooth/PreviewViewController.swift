@@ -67,7 +67,6 @@ class PreviewViewController: UIViewController {
         
         let value = [
             "logo": previewImageView.image!,
-            "message": "Merry Christmas from Tiller",
             "emptyLine": "OK"
             ] as [String: Any]
         

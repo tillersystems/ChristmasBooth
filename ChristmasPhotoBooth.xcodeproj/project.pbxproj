@@ -15,9 +15,9 @@
 		841440001FE16DCD00C25A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84143FFE1FE16DCD00C25A1B /* LaunchScreen.storyboard */; };
 		841440081FE1812600C25A1B /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841440071FE1812600C25A1B /* PreviewViewController.swift */; };
 		8414400A1FE1848D00C25A1B /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841440091FE1848D00C25A1B /* CameraController.swift */; };
-		8414F3C91FE19434001877B2 /* PictureTicket.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8414F3C81FE19434001877B2 /* PictureTicket.plist */; };
 		8414F3CB1FE1949F001877B2 /* PrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F3CA1FE1949F001877B2 /* PrinterManager.swift */; };
 		8414F3CD1FE198B7001877B2 /* Label+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F3CC1FE198B7001877B2 /* Label+Extension.swift */; };
+		8453BB2920373C1E00F53AEC /* PictureTicket.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8453BB2820373C1E00F53AEC /* PictureTicket.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		841440011FE16DCD00C25A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841440071FE1812600C25A1B /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		841440091FE1848D00C25A1B /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
-		8414F3C81FE19434001877B2 /* PictureTicket.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PictureTicket.plist; path = "../../tiller-pos/Tiller/Supporting Files/printer-templates/PictureTicket.plist"; sourceTree = "<group>"; };
 		8414F3CA1FE1949F001877B2 /* PrinterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterManager.swift; sourceTree = "<group>"; };
 		8414F3CC1FE198B7001877B2 /* Label+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Extension.swift"; sourceTree = "<group>"; };
+		8453BB2820373C1E00F53AEC /* PictureTicket.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PictureTicket.plist; sourceTree = "<group>"; };
 		877B2937218DDCFD1BB807A8 /* Pods-ChristmasPhotoBooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristmasPhotoBooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,9 +96,9 @@
 				841440011FE16DCD00C25A1B /* Info.plist */,
 				841440091FE1848D00C25A1B /* CameraController.swift */,
 				841440071FE1812600C25A1B /* PreviewViewController.swift */,
-				8414F3C81FE19434001877B2 /* PictureTicket.plist */,
 				8414F3CA1FE1949F001877B2 /* PrinterManager.swift */,
 				8414F3CC1FE198B7001877B2 /* Label+Extension.swift */,
+				8453BB2820373C1E00F53AEC /* PictureTicket.plist */,
 			);
 			path = ChristmasPhotoBooth;
 			sourceTree = "<group>";
@@ -167,8 +167,8 @@
 			files = (
 				841440001FE16DCD00C25A1B /* LaunchScreen.storyboard in Resources */,
 				84143FFD1FE16DCD00C25A1B /* Assets.xcassets in Resources */,
-				8414F3C91FE19434001877B2 /* PictureTicket.plist in Resources */,
 				84143FFB1FE16DCD00C25A1B /* Main.storyboard in Resources */,
+				8453BB2920373C1E00F53AEC /* PictureTicket.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
