@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080EA74CAB408A88AC8C46145487C638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7A0A5A9EB9252885A20A04C39AA8 /* Foundation.framework */; };
+		2BA84902F33CDB98D927BFFC29E8C197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7A0A5A9EB9252885A20A04C39AA8 /* Foundation.framework */; };
+		584CE43EC955833716A51B302E459F9C /* DiscoveryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B5454C800998B6F7B7F1FCEC96C07 /* DiscoveryManager.swift */; };
+		5996BD050D6376976290118E5303F5B2 /* ePOS2_PrinterS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 707DF291915F7EB4FA88D9AD7D4D7537 /* ePOS2_PrinterS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72027DC70F01AD34BD2272AAAE2EE1FD /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280A0E23C3FC3348F87A548D4E7CA4 /* ExternalAccessory.framework */; };
+		754BF7201564528090EF4510C3BBE946 /* TillerPrinter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 348B51201F8169D7F748C2482AB8C9AC /* TillerPrinter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75BFD31112563AD30D1E0AEFEFC64F78 /* TillerPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063FFE59CC5EE51E6DDB87ECAC5F0BB /* TillerPrinter.swift */; };
+		9CE32C632D4B42CAB15E86C0BEEB03B5 /* Pods-ChristmasPhotoBooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170100306B7EB841FB343CDCA177D0B6 /* Pods-ChristmasPhotoBooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1372E2F0602C7CE0791155E4E29373 /* TillerPrinter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E9150EDD05E84F248910D4269E882 /* TillerPrinter-dummy.m */; };
+		AFA7CD46733C7DD785152EF0332ED1A9 /* TillerPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD946C5D878F5DA076421B2672A1350 /* TillerPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A721A5064EC7EA3C80961E682C57F4 /* Pods-ChristmasPhotoBooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C0C4A5855DAFCF5E0A69FF22528F13 /* Pods-ChristmasPhotoBooth-dummy.m */; };
+		EF125BF86C350ED58654BB0BEE01967D /* ePOSEasySelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F75A866678FBFC5383A4AA639CAC418 /* ePOSEasySelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA0FD459D8255E841F8F1B333E898DA9 /* ePOS2.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF4F8940C267E6A2766C8E8D72E3699 /* ePOS2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0132C13FBC83E6F775CABFE090D3D8 /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE69F1891B6824A0A8ACC7A00D512ED /* PrintManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF3630A72E15E14B99440B751FEEBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1C9BE8A2A1617968E86C6BED6174FA;
+			remoteInfo = TillerPrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0063FFE59CC5EE51E6DDB87ECAC5F0BB /* TillerPrinter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TillerPrinter.swift; path = TillerPrinter/Classes/TillerPrinter.swift; sourceTree = "<group>"; };
+		028E1F145D435CAFCFE353088F591F1F /* Pods-ChristmasPhotoBooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChristmasPhotoBooth.modulemap"; sourceTree = "<group>"; };
+		0C7A8C6DE0EE0FF92E2DEE3F56B7E06E /* Pods-ChristmasPhotoBooth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChristmasPhotoBooth-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FB50FBEC12511C31124C3FBCA707333 /* Pods-ChristmasPhotoBooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChristmasPhotoBooth.debug.xcconfig"; sourceTree = "<group>"; };
+		170100306B7EB841FB343CDCA177D0B6 /* Pods-ChristmasPhotoBooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChristmasPhotoBooth-umbrella.h"; sourceTree = "<group>"; };
+		2BE69F1891B6824A0A8ACC7A00D512ED /* PrintManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrintManager.swift; path = TillerPrinter/Classes/PrintManager.swift; sourceTree = "<group>"; };
+		348B51201F8169D7F748C2482AB8C9AC /* TillerPrinter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TillerPrinter-umbrella.h"; sourceTree = "<group>"; };
+		3CF4F8940C267E6A2766C8E8D72E3699 /* ePOS2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ePOS2.h; path = TillerPrinter/Headers/ePOS2.h; sourceTree = "<group>"; };
+		45FA7A0A5A9EB9252885A20A04C39AA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A68B6A66EC9863DCEAE05E797AAC01A /* Pods-ChristmasPhotoBooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChristmasPhotoBooth.release.xcconfig"; sourceTree = "<group>"; };
+		4FB973CAF35AC4653B4B91A7B9A40347 /* TillerPrinter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TillerPrinter.xcconfig; sourceTree = "<group>"; };
+		5548907B5D626CE2C6BC94059FFBF1E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57AADD8A3B9B1E06F902BDAFCBEAFD9B /* Pods-ChristmasPhotoBooth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChristmasPhotoBooth-frameworks.sh"; sourceTree = "<group>"; };
+		6BD946C5D878F5DA076421B2672A1350 /* TillerPrinter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TillerPrinter.h; path = TillerPrinter/Headers/TillerPrinter.h; sourceTree = "<group>"; };
+		7041FF64A7DF6CA3B3C894AC9523C711 /* Pods_ChristmasPhotoBooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChristmasPhotoBooth.framework; path = "Pods-ChristmasPhotoBooth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DF291915F7EB4FA88D9AD7D4D7537 /* ePOS2_PrinterS-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ePOS2_PrinterS-Bridging-Header.h"; path = "TillerPrinter/Headers/ePOS2_PrinterS-Bridging-Header.h"; sourceTree = "<group>"; };
+		7327B24D78FA08CFEDAAA564E8975F46 /* Pods-ChristmasPhotoBooth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChristmasPhotoBooth-acknowledgements.plist"; sourceTree = "<group>"; };
+		751B5454C800998B6F7B7F1FCEC96C07 /* DiscoveryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscoveryManager.swift; path = TillerPrinter/Classes/DiscoveryManager.swift; sourceTree = "<group>"; };
+		7AFFE5857E557851A68138FE752CA307 /* TillerPrinter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TillerPrinter.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C0C4A5855DAFCF5E0A69FF22528F13 /* Pods-ChristmasPhotoBooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChristmasPhotoBooth-dummy.m"; sourceTree = "<group>"; };
+		9BADBDF0A1C1F9072331A1ECC3B8E7FF /* Pods-ChristmasPhotoBooth-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChristmasPhotoBooth-resources.sh"; sourceTree = "<group>"; };
+		9C280A0E23C3FC3348F87A548D4E7CA4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		9C4E9150EDD05E84F248910D4269E882 /* TillerPrinter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TillerPrinter-dummy.m"; sourceTree = "<group>"; };
+		9F75A866678FBFC5383A4AA639CAC418 /* ePOSEasySelect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ePOSEasySelect.h; path = TillerPrinter/Headers/ePOSEasySelect.h; sourceTree = "<group>"; };
+		A09B0CBB965E09EBB5C39693EF841835 /* libepos2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libepos2.a; path = TillerPrinter/Epson/libepos2.a; sourceTree = "<group>"; };
+		E8542CE81ED3ED1386D55B3B289E21DD /* TillerPrinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TillerPrinter.framework; path = TillerPrinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90B3778E8656E0897633E1B98C3D6DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C41AF53A6A88ACBFA8FCBD0D5476D5 /* TillerPrinter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TillerPrinter-prefix.pch"; sourceTree = "<group>"; };
+		F697BB3E158850595894ACAB66A94D69 /* libeposeasyselect.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libeposeasyselect.a; path = TillerPrinter/Epson/libeposeasyselect.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BDF039AF545CFF8AB5E3A08F40249F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA84902F33CDB98D927BFFC29E8C197 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7C1615A314F93A283FFB239A707EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72027DC70F01AD34BD2272AAAE2EE1FD /* ExternalAccessory.framework in Frameworks */,
+				080EA74CAB408A88AC8C46145487C638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A72F6DFA420CED6657C71C3CCFB3CFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				419F7ABFF6971C1DB6CEF83813C90CF7 /* TillerPrinter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		328A3E6E87B662E19B5E6C6EB82BE6CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A09B0CBB965E09EBB5C39693EF841835 /* libepos2.a */,
+				F697BB3E158850595894ACAB66A94D69 /* libeposeasyselect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		419F7ABFF6971C1DB6CEF83813C90CF7 /* TillerPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				751B5454C800998B6F7B7F1FCEC96C07 /* DiscoveryManager.swift */,
+				3CF4F8940C267E6A2766C8E8D72E3699 /* ePOS2.h */,
+				707DF291915F7EB4FA88D9AD7D4D7537 /* ePOS2_PrinterS-Bridging-Header.h */,
+				9F75A866678FBFC5383A4AA639CAC418 /* ePOSEasySelect.h */,
+				2BE69F1891B6824A0A8ACC7A00D512ED /* PrintManager.swift */,
+				6BD946C5D878F5DA076421B2672A1350 /* TillerPrinter.h */,
+				0063FFE59CC5EE51E6DDB87ECAC5F0BB /* TillerPrinter.swift */,
+				328A3E6E87B662E19B5E6C6EB82BE6CE /* Frameworks */,
+				9FA6F753C2A928BACCABE5AEE03DD774 /* Support Files */,
+			);
+			name = TillerPrinter;
+			path = TillerPrinter;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				762834334312064064538B4C9F489B5A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		762834334312064064538B4C9F489B5A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C280A0E23C3FC3348F87A548D4E7CA4 /* ExternalAccessory.framework */,
+				45FA7A0A5A9EB9252885A20A04C39AA8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C2FB1CA2D6E81D42F7A6C5297A01AF1 /* Pods-ChristmasPhotoBooth */ = {
+			isa = PBXGroup;
+			children = (
+				5548907B5D626CE2C6BC94059FFBF1E2 /* Info.plist */,
+				028E1F145D435CAFCFE353088F591F1F /* Pods-ChristmasPhotoBooth.modulemap */,
+				0C7A8C6DE0EE0FF92E2DEE3F56B7E06E /* Pods-ChristmasPhotoBooth-acknowledgements.markdown */,
+				7327B24D78FA08CFEDAAA564E8975F46 /* Pods-ChristmasPhotoBooth-acknowledgements.plist */,
+				94C0C4A5855DAFCF5E0A69FF22528F13 /* Pods-ChristmasPhotoBooth-dummy.m */,
+				57AADD8A3B9B1E06F902BDAFCBEAFD9B /* Pods-ChristmasPhotoBooth-frameworks.sh */,
+				9BADBDF0A1C1F9072331A1ECC3B8E7FF /* Pods-ChristmasPhotoBooth-resources.sh */,
+				170100306B7EB841FB343CDCA177D0B6 /* Pods-ChristmasPhotoBooth-umbrella.h */,
+				0FB50FBEC12511C31124C3FBCA707333 /* Pods-ChristmasPhotoBooth.debug.xcconfig */,
+				4A68B6A66EC9863DCEAE05E797AAC01A /* Pods-ChristmasPhotoBooth.release.xcconfig */,
+			);
+			name = "Pods-ChristmasPhotoBooth";
+			path = "Target Support Files/Pods-ChristmasPhotoBooth";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0A72F6DFA420CED6657C71C3CCFB3CFC /* Pods */,
+				E79782BC7B2757123D47A137C221A5B9 /* Products */,
+				7FD777A8AD3ADAFBCB29E8B8696A34FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD777A8AD3ADAFBCB29E8B8696A34FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C2FB1CA2D6E81D42F7A6C5297A01AF1 /* Pods-ChristmasPhotoBooth */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9FA6F753C2A928BACCABE5AEE03DD774 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E90B3778E8656E0897633E1B98C3D6DD /* Info.plist */,
+				7AFFE5857E557851A68138FE752CA307 /* TillerPrinter.modulemap */,
+				4FB973CAF35AC4653B4B91A7B9A40347 /* TillerPrinter.xcconfig */,
+				9C4E9150EDD05E84F248910D4269E882 /* TillerPrinter-dummy.m */,
+				F4C41AF53A6A88ACBFA8FCBD0D5476D5 /* TillerPrinter-prefix.pch */,
+				348B51201F8169D7F748C2482AB8C9AC /* TillerPrinter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TillerPrinter";
+			sourceTree = "<group>";
+		};
+		E79782BC7B2757123D47A137C221A5B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7041FF64A7DF6CA3B3C894AC9523C711 /* Pods_ChristmasPhotoBooth.framework */,
+				E8542CE81ED3ED1386D55B3B289E21DD /* TillerPrinter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18E628F51E9E1B5C2E111F67F00D4537 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE32C632D4B42CAB15E86C0BEEB03B5 /* Pods-ChristmasPhotoBooth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFEB992932CC1D71FC03384241834C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0FD459D8255E841F8F1B333E898DA9 /* ePOS2.h in Headers */,
+				5996BD050D6376976290118E5303F5B2 /* ePOS2_PrinterS-Bridging-Header.h in Headers */,
+				EF125BF86C350ED58654BB0BEE01967D /* ePOSEasySelect.h in Headers */,
+				754BF7201564528090EF4510C3BBE946 /* TillerPrinter-umbrella.h in Headers */,
+				AFA7CD46733C7DD785152EF0332ED1A9 /* TillerPrinter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F52C223248FBAAF69DD6D99C791EA83 /* Pods-ChristmasPhotoBooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6EC9351B4C0633EBFF02AB41E35F7B /* Build configuration list for PBXNativeTarget "Pods-ChristmasPhotoBooth" */;
+			buildPhases = (
+				B891A22DF3350058F7CDED85B1A18DBA /* Sources */,
+				1BDF039AF545CFF8AB5E3A08F40249F6 /* Frameworks */,
+				18E628F51E9E1B5C2E111F67F00D4537 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E736D059322CC7A78804016998E875CC /* PBXTargetDependency */,
+			);
+			name = "Pods-ChristmasPhotoBooth";
+			productName = "Pods-ChristmasPhotoBooth";
+			productReference = 7041FF64A7DF6CA3B3C894AC9523C711 /* Pods_ChristmasPhotoBooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D1C9BE8A2A1617968E86C6BED6174FA /* TillerPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82044254C7CB6CDF9C00F5316278FF07 /* Build configuration list for PBXNativeTarget "TillerPrinter" */;
+			buildPhases = (
+				219CE11F1220F17B330FCEAC50FBF136 /* Sources */,
+				BB7C1615A314F93A283FFB239A707EF8 /* Frameworks */,
+				3AFEB992932CC1D71FC03384241834C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TillerPrinter;
+			productName = TillerPrinter;
+			productReference = E8542CE81ED3ED1386D55B3B289E21DD /* TillerPrinter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E79782BC7B2757123D47A137C221A5B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F52C223248FBAAF69DD6D99C791EA83 /* Pods-ChristmasPhotoBooth */,
+				9D1C9BE8A2A1617968E86C6BED6174FA /* TillerPrinter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219CE11F1220F17B330FCEAC50FBF136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584CE43EC955833716A51B302E459F9C /* DiscoveryManager.swift in Sources */,
+				FC0132C13FBC83E6F775CABFE090D3D8 /* PrintManager.swift in Sources */,
+				9E1372E2F0602C7CE0791155E4E29373 /* TillerPrinter-dummy.m in Sources */,
+				75BFD31112563AD30D1E0AEFEFC64F78 /* TillerPrinter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B891A22DF3350058F7CDED85B1A18DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A721A5064EC7EA3C80961E682C57F4 /* Pods-ChristmasPhotoBooth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E736D059322CC7A78804016998E875CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TillerPrinter;
+			target = 9D1C9BE8A2A1617968E86C6BED6174FA /* TillerPrinter */;
+			targetProxy = 3CF3630A72E15E14B99440B751FEEBC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11BCCFA6E256C4F63CF508A79F8ADE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB973CAF35AC4653B4B91A7B9A40347 /* TillerPrinter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TillerPrinter/TillerPrinter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TillerPrinter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TillerPrinter/TillerPrinter.modulemap";
+				PRODUCT_NAME = TillerPrinter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		781C4B7C611D85C8F64307057A9D9406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB50FBEC12511C31124C3FBCA707333 /* Pods-ChristmasPhotoBooth.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChristmasPhotoBooth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChristmasPhotoBooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		787E5F3FBE6CAD00DB04BD86778B9A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB973CAF35AC4653B4B91A7B9A40347 /* TillerPrinter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TillerPrinter/TillerPrinter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TillerPrinter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TillerPrinter/TillerPrinter.modulemap";
+				PRODUCT_NAME = TillerPrinter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8BA3132D5CD3CFF7706C9C2D346D292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A68B6A66EC9863DCEAE05E797AAC01A /* Pods-ChristmasPhotoBooth.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChristmasPhotoBooth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChristmasPhotoBooth/Pods-ChristmasPhotoBooth.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChristmasPhotoBooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82044254C7CB6CDF9C00F5316278FF07 /* Build configuration list for PBXNativeTarget "TillerPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787E5F3FBE6CAD00DB04BD86778B9A4F /* Debug */,
+				11BCCFA6E256C4F63CF508A79F8ADE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6EC9351B4C0633EBFF02AB41E35F7B /* Build configuration list for PBXNativeTarget "Pods-ChristmasPhotoBooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781C4B7C611D85C8F64307057A9D9406 /* Debug */,
+				E8BA3132D5CD3CFF7706C9C2D346D292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

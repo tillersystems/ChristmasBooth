@@ -1,0 +1,31 @@
+{
+  "name": "TillerPrinter",
+  "version": "0.1.0",
+  "summary": "Pod to easily integrate Epson print SDK",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tillersystems/TillerPrinter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Felix Carrard": "felix.carrard@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.1"
+  },
+  "source_files": [
+    "TillerPrinter/Classes/**/*.swift",
+    "TillerPrinter/Headers/**/*"
+  ],
+  "vendored_libraries": [
+    "TillerPrinter/Epson/libepos2.a",
+    "TillerPrinter/Epson/libeposeasyselect.a"
+  ],
+  "source": {
+    "git": "https://github.com/tillersystems/TillerPrinter.git",
+    "tag": "0.1.0"
+  },
+  "libraries": "xml2.2",
+  "frameworks": "ExternalAccessory"
+}

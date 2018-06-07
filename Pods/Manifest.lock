@@ -1,0 +1,22 @@
+PODS:
+  - TillerPrinter (0.1.0)
+
+DEPENDENCIES:
+  - TillerPrinter (from `https://github.com/tillersystems/TillerPrinter.git`, branch `christmas`)
+
+EXTERNAL SOURCES:
+  TillerPrinter:
+    :branch: christmas
+    :git: https://github.com/tillersystems/TillerPrinter.git
+
+CHECKOUT OPTIONS:
+  TillerPrinter:
+    :commit: 3683d724ff8b65d9624e8215fc25db062bdeba67
+    :git: https://github.com/tillersystems/TillerPrinter.git
+
+SPEC CHECKSUMS:
+  TillerPrinter: 537e033f4f766049a6b39f982b0be6fbbfa61124
+
+PODFILE CHECKSUM: 2b48c5216238661a8b326802bce99b6b08312a8e
+
+COCOAPODS: 1.4.0
